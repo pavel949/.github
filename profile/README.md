@@ -10,7 +10,7 @@
   <img src="https://api.github-store.org/v1/badge/static/8/2?label=Kotlin&icon=code" alt="Kotlin"/>
   <img src="https://api.github-store.org/v1/badge/static/12/2?label=Android%20%2B%20Desktop&icon=bolt" alt="Android + Desktop"/>
   <a href="https://github-store.org">
-    <img src="https://api.github-store.org/v1/badge/static/5/2?label=github--store.org&icon=link" alt="github-store.org"/>
+    <img src="https://api.github-store.org/v1/badge/static/5/2?label=github-store.org&icon=link" alt="github-store.org"/>
   </a>
 </p>
 </div>
@@ -35,8 +35,8 @@ The whole stack is FOSS, community-driven, and works on every major desktop OS p
 
 ```
 ┌──────────────┐   browse / install / update    ┌─────────────────────┐
-│  Client app  │ ─────────────────────────────► │  github-store.org   │
-│  (Android +  │ ◄───── search · cache · auth ──│  backend (Ktor)     │
+│  Client app  │ ─────────────────────────────► │ api.github-store.org│
+│  (Android +  │ ◄───── search · cache · auth ──│ backend (Ktor)      │
 │   Desktop)   │                                 │     ▲               │
 └──────┬───────┘                                 │     │ ranked JSON   │
        │                                         │     │               │
@@ -74,10 +74,9 @@ The whole stack is FOSS, community-driven, and works on every major desktop OS p
 
 Pick a repo and dive in:
 
-- **[Open issues across the org](https://github.com/orgs/OpenHub-Store/issues)** — bug reports, feature requests, polish work.
+- **[Open issues](https://github.com/OpenHub-Store/GitHub-Store/issues)** — bug reports, feature requests, polish work.
 - **[GitHub-Store CONTRIBUTING.md](https://github.com/OpenHub-Store/GitHub-Store/blob/main/CONTRIBUTING.md)** — KMP setup, build commands, coding conventions.
 - **[backend run-locally instructions](https://github.com/OpenHub-Store/backend#run-locally)** — Postgres + Meilisearch via Docker Compose.
-- **[api setup](https://github.com/OpenHub-Store/api#requirements)** — Python 3.11+, GitHub PAT(s), single command.
 
 We label good-first-issue, help-wanted, and bug consistently across all three repos.
 
@@ -86,7 +85,7 @@ We label good-first-issue, help-wanted, and bug consistently across all three re
 ## Stay in the loop
 
 - **Website:** [github-store.org](https://github-store.org)
-- **Releases:** watch [GitHub-Store](https://github.com/OpenHub-Store/GitHub-Store/releases) for the client, [backend](https://github.com/OpenHub-Store/backend/releases) for API changes
+- **Releases:** watch [GitHub-Store](https://github.com/OpenHub-Store/GitHub-Store/releases) for the client, [backend](https://github.com/OpenHub-Store/backend) for API
 - **Featured on:** [Trendshift](https://trendshift.io/repositories/22313) · [HelloGitHub](https://hellogithub.com/en/repository/OpenHub-Store/GitHub-Store)
 
 ---
